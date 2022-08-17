@@ -1,0 +1,31 @@
+:root {
+  --Dark: #000;
+  --White: #ffffff;
+  --Cyan: #00dae1;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background:var(--Dark);
+  font-family: 'Cinzel', serif;
+}
+
+.head-contac {
+  color: var(--Cyan);
+  display: block;
+  font-size: 1.5rem;
+}
+
+.head-log a {
+  color: var(--Cyan);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
